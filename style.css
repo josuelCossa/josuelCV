@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(bg.jpg);
+	background-size: cover;
+	background-position: fixed;
+	color: #017edb;
+}
+main{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 90%;
+	max-width: 1000px;
+	min-height: 100%;
+	margin-bottom: 20px;
+	background-color: rgba(255,255,255,.8);
+	margin-top: 20px;
+	background-attachment: fixed;
+}
+header{
+	width: 100%;
+	min-height: 300px;
+	border-bottom: 2px solid #017edb;
+}
+main header .imagem{
+	position: relative;
+	float: left;
+	height: 100%;
+	min-height: 300px;
+	width: 30%;
+	/*background: #60f; */
+}
+main header .imagem img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(0deg);
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+}
+main header .info{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: calc(70% - 20px);
+	/*background: #f07;*/
+	min-height: 300px;
+	padding-left: 20px;
+}
+main header .info hr{
+	color: #017edb;
+	width: 90%;
+	float: left;
+}
+main header .info table{
+	width: 90%;
+}
+.divisao{  
+	width: calc(100% - 20px);
+	padding-left: 20px;
+
+
+
+}
+.divisao table {
+    width: 80%;
+    height: 50%;	
+}
+.divisao table th{
+	text-align: left;
+
+}
